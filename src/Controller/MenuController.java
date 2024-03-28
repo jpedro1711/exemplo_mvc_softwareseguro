@@ -22,11 +22,11 @@ public class MenuController {
             {
                 cadastrarUsuarioController = new CadastrarUsuarioController();
             }
-            if (opcao == 2)
+            else if (opcao == 2)
             {
                 listarUsuarioController = new ListarUsuarioController();
             }
-            if (opcao == 3)
+            else if (opcao == 3)
             {
                 opcao = 9;
             }
